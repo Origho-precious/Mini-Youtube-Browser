@@ -22,7 +22,7 @@ class App extends Component {
                 q: term,
                 part: 'snippet', 
                 type: 'video',
-                maxResults: 10,
+                maxResults: 5,
                 key: `${KEY}`
             }
         });
