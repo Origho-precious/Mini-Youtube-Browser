@@ -1,0 +1,26 @@
+.label {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.Submit {
+    display: none;
+}
+
+
+@media(max-width: 700px){
+    .Submit {
+        display: block;
+        background-color: #333232;
+        color: #FFF;
+        border: none;
+        height: 40px;
+        width: 30%;
+        margin-top: 0.5rem;
+    }
+
+    .Submit:hover{
+        opacity: 0.9;
+    }
+}

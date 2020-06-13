@@ -1,0 +1,16 @@
+
+@media(max-width: 700px){
+    .Grid{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .ui.grid>.row>[class*="eleven wide"].column{
+        margin-bottom: 2rem !important;
+    }
+
+    .ui.grid>.row>[class*="eleven wide"].column,
+    .ui.grid>.row>[class*="five wide"].column{
+       width: 95% !important;
+    }
+}
